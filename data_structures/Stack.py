@@ -16,4 +16,4 @@ class Stack():
         raise ValueError('The stack is empty.')
 
     def is_empty(self):
-        return bool(self.stack)
+        return not bool(self.stack)
